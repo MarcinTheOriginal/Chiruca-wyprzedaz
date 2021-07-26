@@ -1,0 +1,57 @@
+.scroll-fix::before {
+    display: block;
+    margin-top: -3rem;
+    height: 3rem;
+    /* background-color: pink; */
+    content: '';
+}
+
+.card {
+    margin: 15px;
+}
+
+/* ZDJĘCIA MINIATUREK */
+
+.card-img {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.card-1 {
+    background-image: url(img/min/4499503_dakar_03_02.jpg);
+}
+.card-2 {
+    background-image: url(img/min/4499509_dakar_09_02.jpg);
+}
+.card-3 {
+    background-image: url();
+}
+.card-4 {
+    background-image: url(img/min/4485101_yaiza_0_02.jpg);
+}
+.card-5 {
+    background-image: url(img/min/4485108_yaiza_08_02.jpg);
+}
+.card-6 {
+    background-image: url(img/min/4485206_cullera_06_02.jpg);
+}
+.card-7 {
+    background-image: url(img/min/4485631_malibu_31_02.jpg);
+}
+.card-8 {
+    background-image: url(img/min/4489712_cactus_12_02.jpg);
+}
+.card-9 {
+    background-image: url(img/min/4489803_bari_03_02.jpg);
+}
+.card-10 {
+    background-image: url(img/min/4490812_hidro_12_02.jpg);
+}
+.card-11 {
+    background-image: url(img/min/4499603_cambrils_03_02.jpg);
+}
+.card-12 {
+    background-image: url(img/min/4499805_gandia_05_02.jpg);
+}
