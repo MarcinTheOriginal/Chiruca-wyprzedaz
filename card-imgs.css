@@ -5,6 +5,16 @@
     z-index: 0;
 }
 
+.card-img:hover {
+    background-image: url(img/min/4499503_dakar_09_02.jpg);
+    position:relative;
+    top:-25px;
+    left:-35px;
+    height:500px;
+    display:block;
+    z-index:1;
+}
+
 .card-1 {
     background-image: url(img/min/4499503_dakar_03_02.jpg);
 }
