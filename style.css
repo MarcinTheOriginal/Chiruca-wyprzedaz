@@ -21,6 +21,16 @@ a:hover {
     color: #C50215;
 }
 
+.galery {
+    max-width: 1000px;
+}
+
+.pic {
+    height: 600px;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
 .miniaturki {
     background-color: purple;
 }
