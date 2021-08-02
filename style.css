@@ -26,15 +26,16 @@ a:hover {
 }
 
 .pic {
-    height: 600px;
+    max-height: 600px;
     object-fit: cover;
     object-position: 0 70%;
 }
 
-.miniaturki {
-    background-color: purple;
-}
+/* .thumbnails {
+    width: 150px;
+} */
 
-.thumbnails {
-    
+.thumbnails-list {
+    background-color: purple;
+    height: 150px;
 }
