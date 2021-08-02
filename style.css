@@ -21,9 +21,9 @@ a:hover {
     color: #C50215;
 }
 
-.galery {
+/* .galery {
     max-width: 1000px;
-}
+} */
 
 .pic {
     max-height: 600px;
@@ -31,11 +31,17 @@ a:hover {
     object-position: 0 70%;
 }
 
-/* .thumbnails {
-    width: 150px;
-} */
+.img-thumbnail {
+    border-color: #C50215;
+    border-radius: 5px;
+}
+/* dodać transition */
+.img-thumbnail:hover {
+    border-color: #C50215;
+    border-radius: 15px;
+}
 
-.thumbnails-list {
+/* .thumbnails-list {
     background-color: purple;
     height: 150px;
-}
+} */
