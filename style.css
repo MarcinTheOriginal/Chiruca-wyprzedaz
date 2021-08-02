@@ -32,13 +32,14 @@ a:hover {
 }
 
 .img-thumbnail {
-    border-color: #C50215;
-    border-radius: 5px;
+    /* border-color: #C50215; */
+    border-radius:5px;
 }
 /* dodać transition */
 .img-thumbnail:hover {
     border-color: #C50215;
-    border-radius: 15px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 /* .thumbnails-list {
