@@ -34,6 +34,7 @@ a:hover {
 .img-thumbnail {
     /* border-color: #C50215; */
     border-radius:5px;
+    margin: 12px 0;
 }
 /* dodać transition */
 .img-thumbnail:hover {
@@ -42,7 +43,14 @@ a:hover {
     cursor: pointer;
 }
 
+@media (min-width:768px) {
+    .img-thumbnail {
+        max-width: 156px;
+    }
+}
+
 /* .thumbnails-list {
     background-color: purple;
     height: 150px;
+    width: 700px;
 } */
