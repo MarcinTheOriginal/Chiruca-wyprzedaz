@@ -1,3 +1,11 @@
+:root {
+    --colorChiruca: #C50215;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .scroll-fix::before {
     display: block;
     margin-top: -3rem;
@@ -18,7 +26,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #C50215;
+    color: var(--colorChiruca);
 }
 
 /* .galery {
@@ -26,27 +34,40 @@ a:hover {
 } */
 
 .pic {
-    max-height: 600px;
+    max-height: 500px;
     object-fit: cover;
     object-position: 0 70%;
 }
+/* skalowanie wielkości głównego obrazka w zależności od breakpoint */
+@media (max-width:992px) {
+    .pic {
+        max-height: 400px;
+    }
+}
 
+@media (max-width:768px) {
+    .pic {
+        max-height: 300px;
+    }
+}
+
+@media (min-width:1400px) {
+    .pic {
+        max-height: 600px;
+    }
+}
+/* skalowanie wielkości głównego obrazka w zależności od breakpoin */
 .img-thumbnail {
     /* border-color: #C50215; */
     border-radius:5px;
     margin: 12px 0;
 }
+
 /* dodać transition */
 .img-thumbnail:hover {
-    border-color: #C50215;
+    border-color: var(--colorChiruca);
     border-radius: 20px;
     cursor: pointer;
-}
-
-@media (min-width:768px) {
-    .img-thumbnail {
-        max-width: 156px;
-    }
 }
 
 /* .thumbnails-list {
@@ -54,3 +75,28 @@ a:hover {
     height: 150px;
     width: 700px;
 } */
+
+.scrollTop {
+    background-color: var(--colorChiruca);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.scrollTop.active {
+    bottom: 50px;
+    pointer-events: auto;
+    opacity: 1;
+}

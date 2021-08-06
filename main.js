@@ -1,9 +1,15 @@
-const karta = document.querySelector('#carouselExampleSlidesOnly');
-console.log(karta);
+const toTheTopButton = document.querySelector('.scrollTop');
 
-const pauseCarousel = () => {
-  karta.className.replace("data-bs-pause");
+window.addEventListener('scroll', () => {
+  if(window.pageYOffset > 500) {
+    toTheTopButton.classList.add("active");
+  } else {
+    toTheTopButton.classList.remove("active");
+  }
+})
 
+const scrollTop = () => {
+  document.documentElement.scrollTop = 0;
 }
 
-karta.addEventListener("mouseover", pauseCarousel)
+toTheTopButton.addEventListener('click', scrollTop);
