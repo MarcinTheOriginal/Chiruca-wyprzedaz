@@ -1,12 +1,23 @@
+.imgContainer {
+    height: 200px;
+    overflow: hidden;
+}
+
 .card-img {
     position: relative;
     height: 200px;
     background-size: cover;
     z-index: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-img:hover {
+    transform: scale(1.4);
 }
 
 .card-1 {
     background-image: url(img/min/4499503_dakar_03_02.jpg);
+    background-position: 0 70%;
 }
 .card-2 {
     background-image: url(img/min/4499509_dakar_09_02.jpg);
