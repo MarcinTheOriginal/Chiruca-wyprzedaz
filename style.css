@@ -60,6 +60,7 @@ a:hover {
 
 .miniPic {
     max-width: 200px;
+    margin: 0 12px;
 }
 
 @media (max-width: 767px) {
