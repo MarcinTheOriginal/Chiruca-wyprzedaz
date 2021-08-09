@@ -6,6 +6,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.logo {
+    height: 25px;
+    padding-right: 8px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+}
+
 .scroll-fix::before {
     display: block;
     margin-top: -3rem;
@@ -29,9 +39,35 @@ a:hover {
     color: var(--colorChiruca);
 }
 
-/* .galery {
-    max-width: 1000px;
-} */
+.rowsParent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 1400px) {
+    .rowsParent {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+.firstRow, .secondRow {
+    display: flex;
+    justify-content: center;
+}
+
+.miniPic {
+    max-width: 200px;
+    margin: 0 12px;
+}
+
+@media (max-width: 767px) {
+    .miniPic {
+        max-width: 100px;
+    }
+}
 
 .pic {
     max-height: 500px;
