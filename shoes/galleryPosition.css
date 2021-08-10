@@ -1,0 +1,32 @@
+.pic {
+    max-height: 500px;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+/* skalowanie wielkości głównego obrazka w zależności od breakpoint */
+@media (max-width:992px) {
+    .pic {
+        max-height: 400px;
+    }
+}
+
+@media (max-width:768px) {
+    .pic {
+        max-height: 300px;
+    }
+}
+
+@media (min-width:1400px) {
+    .pic {
+        max-height: 600px;
+    }
+}
+/* skalowanie wielkości głównego obrazka w zależności od breakpoin */
+
+.height150 {
+    object-position: 0 150%;
+}
+
+.height120 {
+    object-position: 0 120%;
+}
