@@ -24,11 +24,6 @@ html {
     content: '';
 }
 
-.card {
-    min-width: 286px;
-    margin: 15px;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -38,6 +33,8 @@ a:hover {
     text-decoration: none;
     color: var(--colorChiruca);
 }
+
+/* Parametry w galerii */
 
 .rowsParent {
     display: flex;
@@ -87,6 +84,8 @@ a:hover {
     height: 150px;
     width: 700px;
 } */
+
+/* Koniec parametrów w galerii */
 
 .scrollTop {
     background-color: var(--colorChiruca);
