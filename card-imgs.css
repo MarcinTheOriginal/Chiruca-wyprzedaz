@@ -69,31 +69,50 @@
 }
 .card-13 {
     background-image: url(img/min/4402201_koala_01_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 45% 70%;
 }
 .card-14 {
-    background-image: url();
+    background-image: url(img/min/44965-yucatan-pro-gtx-01-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 45% 60%;
 }
 .card-15 {
-    background-image: url();
+    background-image: url(img/min/4414721_landes_21_02.jpg);
+    background-position: 0 30%;
 }
 .card-16 {
-    background-image: url();
+    background-image: url(img/min/RABAT\ 12.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 45% 60%;
 }
 .card-17 {
     background-image: url(img/min/4494505_gomera_05_02.jpg);
+    background-size: 130%;
+    background-position: 60% 60%;
 }
 .card-18 {
     background-image: url(img/min/4494507_gomera_07_02.jpg);
+    background-size: 130%;
+    background-position: 60% 60%;
 }
 .card-19 {
     background-image: url(img/min/4496423_sumatra_23_02.jpg);
-    background-position: 70% 0;
+    background-size: 130%;
+    background-position: 70% 50%;
 }
 .card-20 {
     background-image: url(img/min/4483212_metropolitan_12_02.jpg);
+    background-size: 140%;
+    background-position: 50% 70%;
 }
 .card-21 {
     background-image: url(img/min/4483412_brithish_12_02.jpg);
+    background-size: 140%;
+    background-position: 50% 70%;
 }
 .card-22 {
     background-image: url(img/min/4427608_cares-boa-hi-vis_08_02.jpg);
@@ -183,7 +202,9 @@
     background-image: url();
 }
 .card-51 {
-    background-image: url();
+    background-image: url(img/min/4414901_landes_01_01_02.jpg);
+    background-size: 140%;
+    background-position: 50% 60%;
 }
 .card-52 {
     background-image: url(img/min/4428013_cares_13_02.jpg);
