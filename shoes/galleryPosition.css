@@ -30,3 +30,24 @@
 .height120 {
     object-position: 0 120%;
 }
+
+.scaleDown {
+    max-height: 600px;
+}
+@media (max-width:992px) {
+    .scaleDown {
+        max-height: 500px;
+    }
+}
+
+@media (max-width:768px) {
+    .scaleDown {
+        max-height: 400px;
+    }
+}
+
+@media (min-width:1200px) {
+    .scaleDown {
+        max-height: 800px;
+    }
+}
