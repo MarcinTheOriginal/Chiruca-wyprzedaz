@@ -3,6 +3,39 @@
     margin: 15px;
 }
 
+.titleOfCard {
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.pictogram {
+    padding-left: 5px;
+    height: 50px; /* żeby puste piktogramy też miały wysokość 50px */
+}
+
+.gtx {
+    width: auto;
+    height: 50px;
+    content: url(img/GTX.png);
+}
+
+.vibram {
+    width: auto;
+    height: 50px;
+    content: url(img/vibram.png);
+}
+
+.boa {
+    width: auto;
+    height: 50px;
+    content: url(img/boa.png);
+}
+
 .imgContainer {
     height: 200px;
     overflow: hidden;
