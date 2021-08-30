@@ -34,6 +34,10 @@ a:hover {
     color: var(--colorChiruca);
 }
 
+i.fa-external-link-alt {
+    font-size: 0.8rem;
+}
+
 /* Parametry w galerii */
 
 .rowsParent {
