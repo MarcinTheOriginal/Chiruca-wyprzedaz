@@ -1,6 +1,23 @@
+:root {
+    --colorChiruca: #C50215;
+}
+
 .card {
     min-width: 286px;
     margin: 15px;
+}
+
+.sold {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    transform: translate(-50%, -50%);
+    transform: rotate(30deg);
+    color: var(--colorChiruca);
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px black;
+    pointer-events: none;
 }
 
 .titleOfCard {
