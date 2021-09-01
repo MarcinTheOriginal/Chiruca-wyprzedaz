@@ -31,6 +31,10 @@
     object-position: 0 120%;
 }
 
+.height50 {
+    object-position: 0 50%;
+}
+
 .height0 {
     object-position: 0 0%;
 }
