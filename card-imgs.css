@@ -80,7 +80,9 @@
     background-position: 0 70%;
 }
 .card-3 {
-    background-image: url();
+    background-image: url(img/min/4485903_mijas_08_02.jpg);
+    background-size: 120%;
+    background-position: 55% 70%;
 }
 .card-4 {
     background-image: url(img/min/4485101_yaiza_0_02.jpg);
