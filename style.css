@@ -113,6 +113,11 @@ form, .filters p {
     padding-left: 25px;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+}
+
 .filters {
     position: fixed;
     min-width: 400px;

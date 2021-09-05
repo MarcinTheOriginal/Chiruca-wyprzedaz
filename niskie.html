@@ -57,16 +57,27 @@
           <p>Wybierz technologie:</p>
           <form>
             <div class="gtxselector">
-              <input type="radio" id="gtxon" name="gtx" value="gtxon">
-              <label for="gtx">GTX ON</label><br>
+              <input type="radio" id="gtxon" name="gtx" value="gtxf">
+              <label for="gtxon">Zawierają GTX</label><br>
 
-              <input type="radio" id="gtxdefault" name="gtx" value="gtxdefault">
-              <label for="vibram">Domyślnie</label><br>
+              <input type="radio" id="gtxdefault" name="gtx" checked>
+              <label for="gtxdefault">Domyślnie</label><br>
 
-              <input type="radio" id="gtxoff" name="gtx" value="gtxoff">
-              <label for="boa">GTX OFF</label><br>
+              <input type="radio" id="gtxoff" name="gtx">
+              <label for="gtxoff">Nie zawierają GTX</label><br>
+            </div>
+            <div class="vibramselector">
+              <input type="radio" id="vibramon" name="vibram">
+              <label for="vibramon">Zawierają Vibram</label><br>
+
+              <input type="radio" id="vibramdefault" name="vibram" checked>
+              <label for="vibramdefault">Domyślnie</label><br>
+
+              <input type="radio" id="vibramoff" name="vibram">
+              <label for="vibramoff">Nie zawierają Vibram</label><br>
             </div>
           </form>
+          <button class="startFilteringButton">FILTRUJ</button>
           <button class="arrowFilters"><i class="fas fa-chevron-left"></i></button>
         </div>
 
@@ -78,7 +89,7 @@
             </div>
             <div class="cards row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
               
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/koala01.html">
@@ -104,7 +115,7 @@
                 </div>
               </div>
               
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf vibramf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/yucatan01.html">
@@ -189,7 +200,7 @@
                 </div>
               </div>
               
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/rabat12.html">
@@ -217,7 +228,7 @@
                 </div>
               </div>
               
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf vibramf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/gomera05.html">
@@ -246,7 +257,7 @@
                 </div>
               </div>
               
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf vibramf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/gomera07.html">
@@ -276,7 +287,7 @@
                 </div>
               </div>
               
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf vibramf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/sumatra23.html">
@@ -305,7 +316,7 @@
                 </div>
               </div>
                     
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/metropolitan12.html">
@@ -333,7 +344,7 @@
                 </div>
               </div>
                     
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf vibramf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/british12.html">
@@ -362,7 +373,7 @@
                 </div>
               </div>
                              
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center gtxf">
                 <div class="card" style="width: 18rem;">
                   <div class="imgContainer">
                     <a href="shoes/gales02.html">
