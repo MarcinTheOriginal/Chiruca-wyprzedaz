@@ -110,19 +110,18 @@ i.fa-external-link-alt {
 /* filtry */
 /* Przebuodwać tak, żeby przycisk wysuwający razem z napisem FILTRY był na środku ekranu podczepiony pod górną belkę */
 
-form, .filters p {
+form, .filtersLead {
     padding-left: 25px;
 }
 
 form {
     display: flex;
-    flex-direction: row;
 }
 
 .filters {
     position: fixed;
     min-width: 400px;
-    top: 60px;
+    top: 600px;
     left: 50%;
     z-index: 1;
     padding: 20px;
@@ -138,10 +137,16 @@ form {
     transform: translate(-50%, 0px);
 }
 
-.arrowFilters {
+.bottomFilters {
     position: absolute;
-    bottom: -60px;
+    bottom: 0;
     left: 50%;
+    display: flex;
+    align-items: baseline;
+    transform: translate(-50%, 50%);
+}
+
+.arrowFilters {
     background-color: var(--colorChiruca);
     width: 60px;
     height: 60px;
@@ -152,7 +157,7 @@ form {
     justify-content: center;
     font-size: 30px;
     color: white;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 .fa-chevron-down {
@@ -162,4 +167,12 @@ form {
 .arrowRotate {
     transform: rotate(180deg);
     transition: transform .4s ease-in-out;
+}
+
+.bottomFiltersText {
+    color: var(--colorChiruca);
+    display: block;
+    background-color: #fff;
+    font-size: 36px;
+    margin: 0 10px;
 }
