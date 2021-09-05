@@ -1,6 +1,6 @@
 const toTheTopButton = document.querySelector('.scrollTop');
 const filterButton = document.querySelector('.arrowFilters');
-const arrowFilter = document.querySelector('.fa-chevron-left')
+const arrowFilter = document.querySelector('.fa-chevron-down')
 const filters = document.querySelector('.filters');
 const startFilteringButton = document.querySelector('.startFilteringButton');
 const allCards = document.querySelectorAll('.col');

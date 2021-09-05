@@ -108,6 +108,7 @@ i.fa-external-link-alt {
 }
 
 /* filtry */
+/* Przebuodwać tak, żeby przycisk wysuwający razem z napisem FILTRY był na środku ekranu podczepiony pod górną belkę */
 
 form, .filters p {
     padding-left: 25px;
@@ -121,25 +122,26 @@ form {
 .filters {
     position: fixed;
     min-width: 400px;
-    top: 30%;
-    right: 0px;
+    top: 60px;
+    left: 50%;
     z-index: 1;
     padding: 20px;
     border-style: solid;
     border-color: var(--colorChiruca);
     border-radius: 10px;
     background-color: #fff;
+    transform: translate(-50%, -150px);
     transition: transform .4s ease-in-out;
 }
 
 .activeFilters {
-    transform: translateX(-200px);
+    transform: translate(-50%, 0px);
 }
 
 .arrowFilters {
     position: absolute;
-    top: 50%;
-    left: 0;
+    bottom: -60px;
+    left: 50%;
     background-color: var(--colorChiruca);
     width: 60px;
     height: 60px;
@@ -153,7 +155,7 @@ form {
     transform: translate(-50%, -50%);
 }
 
-.fa-chevron-left {
+.fa-chevron-down {
     transition: transform .4s ease-in-out;
 }
 
